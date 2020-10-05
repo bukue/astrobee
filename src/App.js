@@ -1,7 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
-import { Canvas, useThree, useFrame } from 'react-three-fiber';
+import { Canvas, useFrame } from 'react-three-fiber';
 import { Astrobee } from './components/astrobee';
 import { 
   CLOCKWISE, 
